@@ -21,7 +21,7 @@ Create a new microservice that can be deployed using docker containers. This mic
 🌱 Get Started!
 
 - Install [Docker](https://www.docker.com/get-started/)
-- Download [Postman](https://www.postman.com/) and import the latch-security-challenge-postman-collection located in the root of the project
+- Download [Postman](https://www.postman.com/) and import the [latch-security-challenge-postman-collection](https://github.com/MicaFesta/latch-security-challenge/blob/main/latch-security-challenge-postman-collection.postman_collection.json) located in the root of the project
 - Clone github repository with the following command
 ```
 git clone https://github.com/MicaFesta/latch-security-challenge.git
