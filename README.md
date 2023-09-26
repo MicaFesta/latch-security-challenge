@@ -1,7 +1,7 @@
 ## latch-security-challenge
 Challenge for a security position in Latch.
 
-📣 ##About the guidelines:
+📣 ## About the guidelines:
 Create a new microservice that can be deployed using docker containers. This microservice should be delivered with all the information needed just to run without further effort. 
  - We need to develop a microservice to handle allowed and used names ([dataset](https://data.buenosaires.gob.ar/dataset/nombres))
     “Nombres-permitidos”
