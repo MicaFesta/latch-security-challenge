@@ -18,7 +18,7 @@ Create a new microservice that can be deployed using docker containers. This mic
  - Upload the information in your preferred cloud storage, and send the link back :)
 
 
-🌱## Get Started!
+🌱 Get Started!
 
 - Install [Docker](https://www.docker.com/get-started/)
 - Download [Postman](https://www.postman.com/) and import the latch-security-challenge-postman-collection located in the root of the project
