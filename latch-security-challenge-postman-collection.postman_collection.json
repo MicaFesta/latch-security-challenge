@@ -1,0 +1,165 @@
+{
+	"info": {
+		"_postman_id": "d101d77e-b17f-402e-9d44-6a676d0414b9",
+		"name": "latch-security-challenge-postman-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get data name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/get-data-name?name=micaela",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"get-data-name"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "micaela"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get name by condition",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/get-names-by-condition?letter=a&pattern=ron",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"get-names-by-condition"
+					],
+					"query": [
+						{
+							"key": "letter",
+							"value": "a"
+						},
+						{
+							"key": "pattern",
+							"value": "ron"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get count names per gender",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/get-count-names-per-gender",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"get-count-names-per-gender"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get top 10 names",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/get-top-10-names",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"get-top-10-names"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "its an approved name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/is-an-approved-name?name=julian dionelio carlos juancho",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"is-an-approved-name"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "julian dionelio carlos juancho"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/ping",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"ping"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
