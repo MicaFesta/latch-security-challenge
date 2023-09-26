@@ -1,5 +1,5 @@
 ## latch-security-challenge
-Challenge for a security position in Latch.
+Challenge for a security position in Latch 😉
 
 📣 About the guidelines:
 Create a new microservice that can be deployed using docker containers. This microservice should be delivered with all the information needed just to run without further effort. 
@@ -37,7 +37,7 @@ docker run --name my-latch-v1 -p 3030:3030 my-latch-v1
 - Enjoy 🙂
 
 
-If you do not want to use Postman, the endpoints are the following:
+If you don't want to use Postman, here are the list of endpoints:
 ```
 GET - /ping
 GET - /get-data-name?name=micaela
